@@ -2,10 +2,11 @@ const positiveMessage = ["The sun is shinning, the weather is sweet!", "Wake up 
 
 const songQuote = ["Dont worry, be happy", "What a wonderful World", "Don't stop believin", "Walking on sunshine", "Get up, Stand up"];
 
-const generteRandomMessage = () => {
-    let positiveMessageIndex = Math.floor(Math.rondom()* positiveMessage.length);
-    let songQuoteIndex = Math.floor(Math.rondom()* songQuote.length);
+const generateRandomMessage = () => {
+    let positiveMessageIndex = Math.floor(Math.random()* positiveMessage.length);
+    let songQuoteIndex = Math.floor(Math.random()* songQuote.length);
     let message = positiveMessage[positiveMessageIndex] + songQuote[songQuoteIndex];
 
     console.log(message);
 }
+generateRandomMessage();
