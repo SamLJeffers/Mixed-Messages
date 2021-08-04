@@ -1,4 +1,4 @@
-# Mixed-Messages Positive quotes + song
+# Mixed-Messages Positive Quotes
 Codecademy Project
 
 This project was created in JavaScript
